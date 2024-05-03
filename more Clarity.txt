@@ -1,0 +1,84 @@
+More Clarity between Dependent and Independent Variable in Case Study :-
+Variable 
+Type Variable Name Description Measurement
+Dependent Recognition Accuracy
+Proportion of correctly identified 
+finger vein images
+Continuous Percentage (0% -
+100%)
+Dependent Matching Time
+Time taken by the model to 
+recognize a finger vein image
+Continuous Time Units (e.g., 
+milliseconds)
+Dependent Generalization Ability
+Model's performance on unseen data 
+(potentially)
+Measurement method may vary 
+(not explicitly mentioned)
+Independent
+Preprocessing Techniques: 
+Mini-ROI Feature Extraction
+Presence or absence of a region of 
+interest (ROI) containing the core 
+finger vein pattern Nominal (Presence/Absence)
+Independent
+Preprocessing Techniques: 
+Pattern Feature Extraction 
+Algorithms
+Algorithms used to extract relevant 
+features (specific algorithms may not 
+be given)
+Nominal (Categories of 
+algorithms)
+Independent
+Deep Learning Model 
+Architecture: Network Type
+Type of neural network architecture 
+used (e.g., lightweight convolutional 
+neural network) Nominal (Category of network)
+Independent
+Deep Learning Model 
+Architecture: Number of 
+Layers
+Number of layers stacked in the 
+model
+Discrete Ratio (Integer, but 
+represents ratio scale)
+Independent
+Deep Learning Model 
+Architecture: Activation 
+Functions
+Functions applied within the neural 
+network layers
+Nominal (Categories of 
+functions)
+Independent
+Loss Function: Triplet Loss 
+Function
+Use of the triplet loss function for 
+training Nominal (Used/Not Used)
+Independent
+Loss Function: 
+Hyperparameter Settings
+Specific parameters within the 
+chosen loss function (e.g., margin 
+value)
+Continuous Ratio (Values on a 
+ratio scale)
+Independent
+Training Parameters: Learning 
+Rate
+Rate at which the model updates its 
+weights during training
+Continuous Ratio (Float value 
+representing rate)
+Independent Training Parameters: Batch Number of images processed before Discrete Ratio (Integer, but 
+Size updating weights represents ratio scale)
+Independent
+Training Parameters: Number 
+of Training Epochs
+Number of times the entire training 
+dataset is passed through the model
+Discrete Ratio (Integer, but 
+represents ratio scale)
